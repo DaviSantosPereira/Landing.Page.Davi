@@ -1,0 +1,430 @@
+@charset 'utf-8';
+
+* {
+
+    margin: 0;
+    padding: 0;
+    border: none;                        
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+body {
+
+    background-color: rgb(0, 0, 0);
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+main {
+    background-color: rgb(0, 0, 0);
+    width: 1005px;
+    margin: 0 auto;
+   
+   
+}
+
+/* Inicio de Cabeçalho e Menu */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0,0,0);
+    width: 973px;
+    height: 100px;
+    border: 1px solid #fbff00;
+    margin-left: 15px;
+   
+
+}
+
+header> nav > ul {
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+header> nav > li {
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+header> nav > a {
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+
+header> nav > ul {
+   margin-right: 100px;
+ 
+   
+
+}
+
+header> nav > ul > li {
+
+    display: inline-block;
+    margin: 60px;
+    height: 25px;
+    width: 25px;
+
+}
+
+header> nav > ul > li > a {
+   color: #FFFFFF;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bolder;
+   font-size: large;
+
+}
+
+.efeito {
+    border: 2px solid  #fbff00;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.efeito:hover {
+
+    background-color: #fbff00;
+    color: #000;
+    transition: 0.5s all;
+
+}
+
+#logo {
+    /* background-image: url(Imagem/Logo\ Sem\ Fundo.png); */
+    background-repeat: no-repeat;
+    background-position: left; 
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+    border: none;
+}
+
+/* Fim de Cabeçalho e Menu */
+
+
+/* Inicio do Menu da Esquerda */
+
+#border {
+    border: 1px solid #fbff00;
+
+}
+
+section {
+
+    float: left; /* Posicionar o Elemento na Esquerda */
+    border: 1px transparent #fbff00;
+    background-color: #000000;
+    width: 215px;
+    height: 600px;
+    margin-top: 10px;
+    margin-left: 15px; 
+    
+
+}
+
+section > ul {
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+section > li {
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+section > a {
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+section > ul {
+    margin-left: 40px;
+
+}
+
+section > ul > li {
+
+    display: block;
+    width: 0px; 
+    border-bottom: 1px transparent #AAA;
+    padding: 20px;
+    text-align: center; 
+
+
+}
+
+
+
+section > ul > li > a {
+
+    display: block;
+    color: #000;
+    font-weight: bolder;
+    margin: 20px;
+    text-align: center; 
+
+}
+
+
+section > ul > li > a {
+
+    background-color: #222;
+    color: #FFF;
+    text-align: center; 
+
+}
+
+section > ul > li > a:hover {
+
+
+    color: #fbff00;
+    transition: 0.5s all;
+
+}
+
+/* Fim do Menu da Esquerda */
+
+/* Inicio da Parte Principal */
+
+article {
+
+    float: right; /* Posicionar o Elemento na Direita */
+    border: 1px solid #fbff00;
+    background-color: #000000;
+    width: 700px;
+    height: 600px;
+    margin-top: 10px;
+    margin-right: 15px; 
+
+}
+
+.igual {
+ 
+    border: 1px transparent #000;
+    background-color: #000000;
+    width: 327px;
+    height: 350px;
+    margin-top: 15px;
+    margin-left: 15px;
+  
+   
+
+}
+
+#imgesquerda {
+    background-image: url(Imagem/Neymar.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 327px 350px; 
+    
+
+}
+
+#h11 {
+
+    color: #FFF;
+    text-align: center; 
+    padding-top: 10px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 3px rgba(238, 255, 0, 0.808); /* Sombreamento */
+
+}
+
+#h12 {
+
+    color:#fbff00;
+    text-align: center; 
+    padding-top: 10px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 3px rgba(238, 255, 0, 0.808); /* Sombreamento */
+
+}
+
+.igual > p { 
+
+    padding: 5px; /*  Espaçamemento Interno */
+    text-align: justify; 
+    text-indent: 20px; /* Distaciamento 1ª Linha */
+    margin-top: 15px;
+
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 50px;
+
+}
+
+form [type="submit"] {
+    height: 20px;
+    width: 50%;
+    background-color: #0400ff;
+    color: #ffffff;
+    font-weight: bolder;
+    text-align: center; 
+
+
+}
+
+form [type="submit"]:hover {
+    cursor: pointer
+
+
+}
+
+input {
+
+    margin-top: 15px;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center; 
+   
+}
+
+#primeiro {
+
+    border: 1px transparent #000;
+    background-color: #000000;
+    width: 668px;
+    height: 50px;
+    margin-top: 380px;
+    margin-left: 15px;
+    background-image: url(Imagem/Emoji.png);
+    background-repeat: no-repeat;
+    background-position: left; 
+    background-size: 50px 50px; 
+    background-position-x: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#primeiro > p {
+
+    color:#FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center; 
+    text-shadow: 2px 2px 3px rgba(238, 255, 0, 0.808);
+
+}
+
+
+#imagem {
+
+    background-image: url(Imagem/Emoji.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 50px 50px; 
+    
+
+}
+
+#segundo {
+
+    border: 1px transparent #000;
+    background-color: #000000;
+    width: 211px;
+    height: 140px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-image: url(Imagem/gifneymar.gif);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 211px 140px; 
+    
+}
+
+#terceiro {
+
+    border: 1px transparent #000;
+    background-color: #000000;
+    width: 211px;
+    height: 140px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-image: url(Imagem/gifcr7.gif);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 211px 140px; 
+    
+}
+
+#quarto {
+
+    border: 1px transparent #000;
+    background-color: #000000;
+    width: 211px;
+    height: 140px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-image: url(Imagem/gifmessi.gif);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 211px 140px; 
+    
+}
+
+/* Fim da Parte Principal */
+
+/* Inicio do Rodapé */
+
+footer {
+
+    border: 1px solid #fbff00;
+    background-color: #000000;
+    width: 973px;
+    margin-left: 15px;
+    margin-top: 620px;
+    clear: both; 
+}
+
+footer > p {
+margin-left: 50px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+padding: 5px;
+color: #fbff00;;
+
+}
+
+/* Fim do Rodapé */
